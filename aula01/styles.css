@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+body {
+  min-height: 100vh;
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  text-align: center;
+  padding: 1.25rem;
+  height: 100vh;
+}
+
+.page-title {
+  font-size: 1.875rem;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+.page-subtitle {
+  font-size: 1.325rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-info {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.page-name {
+  font-weight: 700;
+}
+
+.page-logo {
+  margin-top: 2rem;
+  text-align: center;
+  width: 20rem;
+}
+
+.page-grade {
+  font-weight: 400;
+  color: #222;
+}
+
+.alura-logo {
+  width: 2.5rem;
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+}
